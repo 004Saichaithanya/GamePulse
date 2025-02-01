@@ -1,0 +1,82 @@
+.background-container {
+    height: 400px;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.vr-container {
+    background-image: url('../images/back.avif');
+    background-size: cover; /* Ensures the background covers the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    padding: 20px;
+    height: 100vh; /* Adjust the height as needed, vh stands for viewport height */
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    justify-content: flex-end; /* Aligns content to the right */
+}
+.gadget-container {
+    background-image: url('../images/store.jpg');
+    background-size: cover; /* Ensures the background covers the entire container */
+    background-position: left; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    padding: 20px;
+    height: 80vh; /* Adjust the height as needed, vh stands for viewport height */
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    justify-content: flex-end; /
+
+}
+.gadget-container h1,button{
+    color: white;
+}
+.text-container {
+    text-align: right; /* Aligns text to the right */
+    max-width: 50%; /* Adjust the width as needed */
+    margin-left: auto; /* Pushes the container to the right */
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.text-box h2,p{
+    color:black;
+}
+.slider-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.contact-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.follow-us {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.follow-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.form-control {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
